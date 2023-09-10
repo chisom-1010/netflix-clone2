@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    &::before{
+        box-sizing: border-box;
+    }
+    &::after{
+        box-sizing: border-box;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #000;
+}
+
+            /**** Header ****/
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('../images/header-bg2.jpg');
+    background-position: center;
+    background-size: 50% 50%, no-repeat;
+    height: 55rem;
+    
+}
