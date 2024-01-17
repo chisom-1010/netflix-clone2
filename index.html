@@ -12,13 +12,19 @@
     <!-- Header -->
     <header>
         <div class="header">
+        <div class="header-flex">
         <img src="./images/Logo.png" alt="" class="logo">
-        <button class="signIn-1">sign in</button>
+        <button class="signIn-1"><a href="" class="login">Sign In</a></button>
+        </div>
         <h1 class="netflix-header">Unlimited movies,Tv Shows, and more</h1>
         <p class="plan">Plans now start at  USD2.99/month.</p>
+        
+        <div class="enter-email">
         <p class="ready-to-watch">Ready to watch? Enter your email or restart your membership</p>
-        <input type="email" name="email" id="input-email" placeholder="Email adderess">
-        <input type="button" value="Get Started &#62;">
+        <input type="email" name="email" id="input-email" placeholder="Email address">
+        <input type="button" id="get-started" value="Get Started &#62;">
+        
+    </div>
         </div>
     </header>
 
@@ -31,8 +37,10 @@
 
 
 <section class="enjoy-tv">
+    <div class="flex-tv">
         <h2 class="your-tv">Enjoy on your TV</h2>
         <p class="watch-smart">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+    </div>
         <img src="./images/Frame 6.png" alt="" class="netflix-tv">
     </section>
 
@@ -40,15 +48,19 @@
 
     <section class="download-shows">
         <img src="./images/Frame-2.png" alt="" class="stranger-things">
+        <div class="flex-shows">
         <h2 class="watch-offline">Download your shows to watch offline</h2>
         <p class="favourites">Save your favourites easily and always have something to watch.</p>
+        </div>
     </section>
 
     <div class="h_line"></div>
 
     <section class="watch">
+        <div class="flex-watch">
         <h2 class="watch-everywhere">Watch Everyhwere</h2>
         <p class="stream-unlimited">Stream Unlimited movies and TV shows on your phone, tablet, laptop, and TV</p>
+        </div>
         <img src="./images/Rectangle.png" alt="" class="devices">
     </section>
 
@@ -56,16 +68,16 @@
 
     <section class="create-profiles">
         <img src="./images/Frame 7.png" alt="" class="kids">
+        <div class="flex-profiles">
         <h2 class="kids-profile">Create profiles for kids</h2>
         <p class="watch-smart">Send kids on adventures with their favorite charcters in space made just for them-free with your membership.</p>
+    </div>
     </section>
-
-    <div class="h_line"></div>
 
     <!--    FAQS    -->
     <section class="faqs">
         <h2 class="questions">Frequently Asked Questions</h2>
-        <div class="net-flix">
+            <div class="ask-questions">
             <button onclick="myfunction()" class="dropdown-btn">What is Netflix?
             <img src="./images/Frame.png" alt="" class="initiator">
             </button>
@@ -84,7 +96,7 @@
             <button onclick="myfunction()" class="dropdown-btn">Where can I watch?
             <img src="./images/Frame.png" alt="" class="initiator">
             </button>
-            <div id="netflix-dropdown" class="watch">
+            <div id="netflix-dropdown" class="watch-dropdown">
             <p class="watch-where-1">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
             <p class="watch-where-2">You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
             </div>
@@ -111,11 +123,12 @@
             <p class="netflix-for-kids-1">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</p>
             <p class="netflix-for-kids-2">Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
             </div>
+        </div>
 
             <div class="enter-email">
                 <p class="ready-to-watch green-accent">Ready to watch? Enter your email or restart your membership</p>
                 <input type="email" name="email" id="input-email" placeholder="Email adderess">
-                <input type="button" value="Get Started &#62;">
+                <input type="button" id="get-started" value="Get Started &#62;">
             </div>
     </section>
     </main>
